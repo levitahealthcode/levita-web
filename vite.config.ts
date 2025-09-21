@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
     Sitemap({
-      hostname: 'https://levita-uplift.com',
+      hostname: 'https://levitahealth.com',
       // list the client routes you want indexed
       dynamicRoutes: ['/', '/about', '/contact', '/services', '/blog'],
       // optional: customize robots.txt (defaults to allow all)
