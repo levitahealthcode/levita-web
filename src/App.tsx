@@ -17,10 +17,11 @@ import Footer from './components/Footer';
 { /*import CookieBanner from './components/CookieBanner'; */}
 
 const App: React.FC = () => {
+  
   return (
     <div className="bg-white font-raleway text-slate-800">
       <SEO
-        title="Levita Health"
+        title="Levita Health | Smarter Circulation"
         description="Uplift by Levita Health is a patent-pending abdominal compression device that’s comfortable, discreet, and adjustable for everyday wear."
         canonical="https://levitahealth.com/"
         og={{
