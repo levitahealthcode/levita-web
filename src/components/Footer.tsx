@@ -157,7 +157,7 @@ const Footer: React.FC = () => {
       {/* FULL-WIDTH bottom bar */}
       <div className="w-full border-t border-slate-600 bg-levita-blue-dark">
         <div className="container mx-auto px-6 py-6">
-          <p className="text-slate-400 text-sm text-center">© 2025 Levita Health. All Rights Reserved.</p>
+          <p className="text-slate-400 text-sm text-center">© 2025 Levita Health Inc. All Rights Reserved.</p>
           <p className="text-slate-400 text-sm text-center mt-2">
             <a href="/assets/Downloads/Final_Levita Health Privacy Policy.docx" download="Levita-Health-Privacy-Policy.docx" className="hover:text-white">Privacy Policy</a>
             <span className="mx-2">|</span>
