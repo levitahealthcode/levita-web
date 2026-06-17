@@ -5,11 +5,11 @@ import { ChevronDown } from 'lucide-react'; // install with: npm install lucide-
 import Joe from '../assets/Team/JoeKnight.jpeg';
 import Kishen from '../assets/Team/KishenMitra.jpeg';
 import Marat from '../assets/Team/MaratFudim.jpg';
-import sue from '../assets/Team/SusanHu.jpeg';
+// import sue from '../assets/Team/SusanHu.jpeg';
 
 const teamMembers = [//select data from below connected to the team members
   { name: 'Kishen Mitra, BS', role: 'Co-Founder', image: Kishen, bio: 'Med Tech Builder &\nHealth Equity Innovator\nDuke BME alumnus'},
-  { name: 'Susan Hu, PhD , MBA', role: 'Co-Founder', image: sue, bio: 'Experienced Life Sciences leader in Product Development, Operations and Strategy' },
+  // { name: 'Susan Hu, PhD , MBA', role: 'Co-Founder', image: sue, bio: 'Experienced Life Sciences leader in Product Development, Operations and Strategy' },
   {
     name: 'Joe Knight, PhD, MBA',
     role: 'Business Advisor',
@@ -63,7 +63,7 @@ const Team: React.FC = () => {
 
         <motion.div
           ref={ref}
-          className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? 'visible' : 'hidden'}
