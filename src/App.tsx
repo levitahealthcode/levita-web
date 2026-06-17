@@ -15,7 +15,7 @@ import FAQ from './components/FAQ';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 { /*import CookieBanner from './components/CookieBanner'; */}
-
+//
 const App: React.FC = () => {
   
   return (
